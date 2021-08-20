@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <>
             <div className="navbar">
-                <nav><i className={"wi wi-day-cloudy"}></i>LiveWeather</nav>   
+                <nav><i className={"wi wi-day-rain"}></i>LiveWeather</nav>   
             </div>
         </>
     )

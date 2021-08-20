@@ -78,6 +78,10 @@ body{
     height: 2.5rem;
 }
 
+.searchButton:hover{
+    background-color: rgb(255, 51, 146);
+}
+
 .weatherIcon{
     font-size: 7rem;
     display: flex;
