@@ -138,14 +138,97 @@ body{
 
 @media screen and (max-width: 1100px) {
     .wrap{
-        width: 80vw;
+        width: 90vw;
     }
     .widget{
-        width: 70vw;
+        width: 90vw;
+    }
+
+    .navbar, .navbar .wi{
+        font-size: 4rem;
+    }
+
+    .search input{
+        width: 60vw;
+        font-size: 2rem;
+    }
+
+    .searchButton{
+        height: 4rem;
+        font-size: 2rem;
+    }
+
+    .weatherIcon{
+        font-size: 12rem;
+    }
+
+    .weatherInfo .temp{
+        font-size: 4rem;
+    }
+    .description, .date{
+        font-size: 3rem;
+    }
+
+    .extra-info{
+        padding: 20px 0;
+    }
+
+    .extra-info .minmax-info .two-sided-section .wi{
+        font-size: 4rem;
+    }
+    
+    .extra-info .minmax-info .two-sided-section .second-section{
+        font-size: 2.4rem;
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 800px) {
+    .wrap{
+        width: 90vw;
+    }
+    .widget{
+        width: 90vw;
+    }
+    .navbar, .navbar .wi{
+        font-size: 2.5rem;
+    }
+
+    .search input{
+        width: 80vw;
+        font-size: 1.5rem;
+    }
+
+    .searchButton{
+        height: 3rem;
+        font-size: 1.5rem;
+    }
+
+    .weatherIcon{
+        font-size: 8rem;
+        height: 40%;
+    }
+
+    .weatherInfo .temp{
+        font-size: 3rem;
+    }
+    .description, .date{
+        font-size: 2rem;
+    }
+
+    .extra-info{
+        padding: 20px 0;
+    }
+
+    .extra-info .minmax-info .two-sided-section .wi{
+        font-size: 2.5rem;
+    }
+    
+    .extra-info .minmax-info .two-sided-section .second-section{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
     .container{
         padding-top: 1vh;
     }
@@ -156,6 +239,12 @@ body{
 
     .search input{
         width: 80vw;
+        font-size: 1.2rem;
+    }
+    .searchButton{
+        font-size: 1.2rem;
+        height: 2.6rem;
+        margin: 0 -42px;
     }
     .wrap{
         width: 100vw;
@@ -178,10 +267,27 @@ body{
         font-size: 1rem;
     }
     .extra-info .minmax-info .two-sided-section .wi{
-        font-size: 1,5rem;
+        font-size: 1.5rem;
     }
     
     .extra-info .minmax-info .two-sided-section .second-section{
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .weatherIcon{
+        font-size: 4rem;
+        height: 50%;
+    }
+    .extra-info{
+        padding: 20px 0;
+    }
+    .extra-info .minmax-info .two-sided-section .wi{
+        font-size: 1.3rem;
+    }
+    
+    .extra-info .minmax-info .two-sided-section .second-section{
+        font-size: 0.8rem;
     }
 }
