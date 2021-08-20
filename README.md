@@ -1,4 +1,4 @@
-## Welcome To Live Weather App
+# Welcome To Live Weather App
 
 Live Weather App is a web application created using ReactJS and a Weather API.
 
