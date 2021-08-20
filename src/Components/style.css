@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+body{
+    background-color: #555555;
+}
+
+.navbar{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 500;
+}
+
+.navbar .wi{
+    color: yellow;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+.container{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:  50vw;
+    height: 80vh;
+}
+
+.widget {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #7bffff;
+    width: 40vw;
+    height: 80vh;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+
+
+.search{
+    margin: 0 40px 5vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.search input{
+    width: 30vw;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.searchButton{
+    background-color: rgb(255, 78, 160);
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    margin: 0 -40px;
+    padding: 0 10px;
+    cursor: pointer;
+    height: 2.5rem;
+}
+
+.weatherIcon{
+    font-size: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 253, 161);
+    height: 40%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.weatherInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.weatherInfo .temp{
+    font-size: 4rem;
+}
+
+.description, .date{
+    font-size: 1.5rem;
+}
+
+.extra-info{
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+.extra-info .minmax-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.extra-info .minmax-info .two-sided-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0 0 0;
+}
+
+.extra-info .minmax-info .two-sided-section .wi{
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: rgb(0, 42, 158);
+}
+
+.extra-info .minmax-info .two-sided-section .second-section{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media screen and (max-width: 1100px) {
+    .wrap{
+        width: 80vw;
+    }
+    .widget{
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container{
+        padding-top: 1vh;
+    }
+
+    .navbar{
+        margin: 5px auto;
+    }
+
+    .search input{
+        width: 80vw;
+    }
+    .wrap{
+        width: 100vw;
+        height: 70vh;
+    }
+    .widget{
+        width: 90vw;
+        height: 70vh;
+    }
+
+    .weatherIcon{
+        font-size: 5rem;
+        height: 35%;
+    }
+
+    .weatherInfo .temp{
+        font-size: 3rem;
+    }
+    .description, .date{
+        font-size: 1rem;
+    }
+    .extra-info .minmax-info .two-sided-section .wi{
+        font-size: 1,5rem;
+    }
+    
+    .extra-info .minmax-info .two-sided-section .second-section{
+        font-size: 1rem;
+    }
+}
