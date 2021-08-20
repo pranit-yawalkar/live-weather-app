@@ -265,7 +265,7 @@ body{
     }
 
     .weatherInfo .temp{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .description, .date{
         font-size: 1rem;

@@ -33,7 +33,7 @@ const Weather = () => {
     };
 
     let time = new Date(weatherInfo.sunset*1000);
-    let timeStr = `${time.getHours()} : ${time.getMinutes()}`
+    let timeStr = `${time.getHours()}:${time.getMinutes()}`
 
     useEffect(() => {
         getWeatherData();
@@ -92,15 +92,15 @@ const Weather = () => {
                                 </div>
                                 <div className="two-sided-section">
                                     <p><i className={"wi wi-humidity"}></i></p>
-                                    <p className="second-section">{weatherInfo.humidity}<br/> Humidity</p>
+                                    <p className="second-section">{weatherInfo.humidity}%<br/> Humidity</p>
                                 </div>
                                 <div className="two-sided-section">
                                     <p><i className={"wi wi-cloud-down"}></i></p>
-                                    <p className="second-section">{weatherInfo.pressure}<br/> Pressure</p>
+                                    <p className="second-section">{weatherInfo.pressure} hPa<br/> Pressure</p>
                                 </div>
                                 <div className="two-sided-section">
                                     <p><i className={"wi wi-strong-wind"}></i></p>
-                                    <p className="second-section">{weatherInfo.speed}<br/> Wind Speed</p>
+                                    <p className="second-section">{weatherInfo.speed} m/s<br/> Wind Speed</p>
                                 </div>
                             </div>
                         </div>
